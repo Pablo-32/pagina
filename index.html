@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+        <i class="icon-Menu burger-button" id="burger-menu"></i>
     <header class="header">
                 <div class="container">
                    <figure class="logo">
@@ -17,16 +18,16 @@
                       <nav class="menu">
                         <ol>
                             <li>
-                                 <a class="link" href="#acerca">Acerca de mi</a>
+                                 <a class="link" href="#acerca"><strong class="menu-1"> Acerca de mi</strong></a>
                             </li>
                           <li>
-                               <a class="link" href="#portafolio">Portafolio</a>
+                               <a class="link" href="#portafolio"><strong class="menu-2"> Portafolio</strong></a>
                           </li>
                           <li>
-                               <a class="link" href="#experiencia">Experiencia</a>
+                               <a class="link" href="#experiencia"><strong class="memu-3"> Experiencia</strong></a>
                           </li>
                           <li>
-                               <a class="link" href="#contacto">Trabajemos juntos</a>
+                               <a class="link" href="#contacto"><strong class="menu-4"> Trabajemos juntos</strong></a>
                           </li>
                         </ol>
                       </nav>
@@ -170,5 +171,29 @@
                       </div>
                     </div>
                   </footer>                 
-</body>
+                  <script>
+                        // console.log('Hola mundo! es mi primera linea en JS');
+                        const ipad = window.matchMedia('screen and (max-width: 767px)')
+                        const menu = document.querySelector('.menu');
+                        // console.log(menu);
+                        const burgerButton = document.querySelector('#burger-menu');
+                        // console.log(burgerButton);
+                        ipad.addListener(validation)
+                        function validation(event) {
+                          if (event.matches) {
+                            burgerButton.addEventListener('click', hideShow)
+                          } else {
+                            burgerButton.removeEventListener('click', hideShow)
+                          }
+                        }
+                        validation(ipad);
+                        function hideShow() {
+                          if (menu.classList.contains('is-active')) {
+                            menu.classList.remove('is-active');
+                          } else {
+                            menu.classList.add('is-active');
+                          }
+                        }
+                      </script>
+ </body>
 </html>
