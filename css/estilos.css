@@ -55,6 +55,48 @@
     object-fit: cover;
   }
 
+  #acerca {
+    background-color: #fafafa
+   }
+  
+  
+  .acerca-details {
+    /*border: 1px solid gray;*/
+    border-radius: 10px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .acerca-foto {
+      height: 400px;
+      width: 90%;
+      max-width: 40vh;
+      margin: 1em auto;
+      border-radius: 1em; 
+  }
+  .acerca-titulo {
+    text-decoration: underline;
+    color: #40D9BD;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    text-align: end 
+  }
+  .acerca-parrafo {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2em;
+    text-align: justify; 
+  }
+  .separador_izquierdo i.fa {
+    color: #40D9BD;
+    float: left;
+    margin-top: -27px;
+  }  
+
 
 
 
