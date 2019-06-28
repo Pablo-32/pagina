@@ -95,6 +95,18 @@
   .menu {
     height: inherit;
   }
+  .menu-1 {
+      color: coral
+  }
+  .menu-2{
+      color: red
+  }
+  .menu-3 {
+      color: green
+  }
+  .menu-4 {
+      color: deeppink
+  }
   .header ol {
     display: flex;
     height: inherit;
