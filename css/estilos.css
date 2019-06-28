@@ -1,0 +1,44 @@
+
+
+.header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+  }
+  .menu {
+    height: inherit;
+  }
+  .header ol {
+    display: flex;
+    height: inherit;
+  }
+  .header ol li {
+    height: inherit;
+  }
+  .header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+  }
+  
