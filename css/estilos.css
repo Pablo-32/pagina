@@ -175,7 +175,8 @@
   }
   .acerca-titulo {
     text-decoration: underline;
-    color: #40D9BD;
+    /* color: #40D9BD; */
+    background: linear-gradient(to right, red, black);
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     text-align: end 
@@ -496,7 +497,6 @@
         top: 0;
         left: -100vw;
         width: 100vw;
-        /* height: 100vh; */
         bottom: 0;
         display: flex;
         align-items: center;
@@ -600,16 +600,17 @@
       .hero {
         padding: 2em 1em;
       }
+      .social {
+        margin-top: 1em
+      }
+      .logo img{
+        margin-top: 0.3em;
+      }
+      .acerca-titulo {
+        color: #40D9BD;
+      }  
     }
-    .social {
-      margin-top: 1em
-    }
-    .logo img{
-      margin-top: 0.3em;
-    }
-    .titulo-acerca {
-      color: #40D9BD;
-    }  
+   
   
 
 
