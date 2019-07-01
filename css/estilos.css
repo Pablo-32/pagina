@@ -609,6 +609,9 @@
       .acerca-titulo {
         color: #40D9BD;
       }  
+      .project-imageContainer {
+        margin-bottom: inherit;
+      }
     }
    
   
