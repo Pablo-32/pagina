@@ -583,9 +583,9 @@
         margin-top: 0;
       }
       .footer {
-        display: block;
+        /* display: block; */
         text-align: center;
-        border: 1px solid transparent;
+        /* border: 1px solid transparent; */
       }
       .social-link {
         width: 40px;
