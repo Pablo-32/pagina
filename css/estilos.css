@@ -68,7 +68,8 @@
   }
 
 .header {
-    background-color: #1b2127;
+    background: linear-gradient(to right, red, black);
+    /* background-color: #1b2127; */
     color: white;
     display: flex;
     height: 70px;
@@ -369,7 +370,8 @@
   }
   .footer {
     color: white;
-    background-color: #1b2127;
+    background: linear-gradient(to right, red, black);
+    /* background-color: #1b2127; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -597,6 +599,9 @@
         font-size: 2.0em;
         /* background: rgba(0,0,0,.5) */
       }
+      .header {
+        background: linear-gradient(to right, red, black);
+      }
       .hero {
         padding: 2em 1em;
       }
@@ -611,6 +616,9 @@
       }  
       .project-imageContainer {
         margin-bottom: inherit;
+      }
+      .footer {
+        background: linear-gradient(to right, red, black);
       }
     }
    
