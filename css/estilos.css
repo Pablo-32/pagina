@@ -288,6 +288,12 @@
     text-decoration: none;
     border-radius: 5px; 
   } */
+.titulo-carousel {
+  background: floralwhite;
+  text-decoration: underline;
+  text-align: center;
+  color: #1b2127
+}
   .carousel-inner  {
     margin: auto;
 }
@@ -616,6 +622,9 @@
     .carousel-inner img {
         
         max-width: 100%;
+    }
+    .titulo-carousel{
+      font-size: 1.5em;
     }
       .footer {
         background: linear-gradient(to right, red, black);
