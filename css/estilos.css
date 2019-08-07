@@ -157,7 +157,7 @@
     flex-wrap: wrap;
   }
   .acerca-foto {
-      height: 400px;
+      /* height: 400px; */
       width: 90%;
       max-width: 40vh;
       margin: 1em auto;
@@ -231,54 +231,9 @@
     max-width: 100%;
   }
 
-  /* .event-list {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .event-list-title {
-    margin-left: 20px;
-  }
-  .event { 
-    margin: 1%;
-    width: 48%;
-    flex-shrink: 0;
-    border-radius: 10px;
-    overflow: hidden;
-    background: #f4fbff;
-  }
-  .event img {
-    width: 480px;
-    height: 200px;
-    object-fit: cover;
-  }
-  .event-detail {
-    margin: 20px 40px;
-    margin-top: -40px;
-    background-color: white;
-    position: relative;
-    padding: 20px;
-    text-align: center;
-  }
-  .event-description {
-    text-align: center;
-  }
-  
-  .event-url {
-    color: #056fff;
-    border: 1px solid;
-    padding: 5px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .event-url-git {
-    color: darkcyan;
-    border: 1px solid;
-    text-decoration: none;
-    border-radius: 5px; 
-  } */
+
 .titulo-carousel {
-  background: floralwhite;
+  background: antiquewhite;
   text-decoration: underline;
   text-align: center;
   color: #1b2127
@@ -322,9 +277,7 @@
     background-image: url('../imagen/iconmonstr-linkedin-3.svg');
   }
   
-  .form-email {
-    margin-bottom: 40px;
-  }
+  
   .form-email input {
     border-color: gray;
     border-style: solid;
@@ -340,7 +293,7 @@
   
   .contact-mail {
     display: block;
-    width: 50px;
+    /* width: 50px; */
     margin-top: 10px;
     border: 1px solid;
     color: black;
@@ -384,6 +337,12 @@
   
   .footer a {
     color: white;
+  }
+  .footer p {
+    margin: 0;
+  }
+  .diseño {
+    margin-left: auto;
   }
 
   .burger-button {
@@ -598,9 +557,13 @@
       }
       .logo img{
         margin-top: 0.3em;
+        margin-bottom: 0.3em;
       }
       .acerca-titulo {
         color: #40D9BD;
+      }
+      .acerca-foto {
+        border-radius: 100%;
       }  
       .project-imageContainer {
         margin-bottom: inherit;
