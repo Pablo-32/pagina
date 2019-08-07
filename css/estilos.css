@@ -161,7 +161,7 @@
       width: 90%;
       max-width: 40vh;
       margin: 1em auto;
-      border-radius: 1em; 
+      border-radius: 100%; 
   }
   .acerca-titulo {
     text-decoration: underline;
