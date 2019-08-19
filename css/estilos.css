@@ -590,6 +590,10 @@
     .titulo-carousel{
       font-size: 1.5em;
     }
+    .form-email input {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
       .footer {
         background: linear-gradient(to right, red, black);
       }
